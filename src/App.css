@@ -28,15 +28,16 @@ body {
     padding:10px
     
 }
+
 .topbar {
     background-color:rgb(100,83,144);
     border-radius:20px 20px 0px 0px;
     height:90px;
     text-align:left;
     vertical-align: middle;
-    padding:10px;
-    padding-top:45px;
+    padding-top:20px;
 }
+
 .empty {
 
 }
@@ -61,6 +62,7 @@ body {
     border:rgb(255, 255, 255);
     border:solid 1px;
 }
+
 .buttonKey-yellow {
     background-color: rgb(67,50,110);
     font-size:26px;
@@ -99,18 +101,89 @@ input[type="text"] {
     grid-row: 5/5;
     margin-top:-35px;
 }
+
 #equal {
     height:100px;
     border-radius:16px;
     grid-column: 4/4;
     grid-row: 4/5;
 }
+
 #dot {
     grid-row: 5/5;
     grid-column: 3/4;
     margin-top:-35px;
    
 }
+
+.popup {
+    /*display:none;*/
+    position:fixed;
+    width:80%;
+    height:auto;
+    font-size:12px;
+    background-color:rgb(100,83,144);
+    margin:auto;
+    border:solid 1px white;
+    padding:5px;
+    border-radius:5px;
+    margin-top:8px;
+    overflow:auto;
+    margin-left:10%;
+}
+.popup h6 {
+    color:white;
+    margin-top:10px;
+    text-align: left;
+}
+.popup p {
+    text-align: left;
+    font-size:14px;
+    color:white;
+    text-align: left;
+}
+.close {
+    color:white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 
 
